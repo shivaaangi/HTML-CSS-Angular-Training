@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abc.css">
+    <title>User Details</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+    <h1>Enter your details</h1>
+    <hr>
+    <p><b>Your Name: *<input type="text" name="name" id="name"  placeholder="Enter your name"   required></b></p>
+    <fieldset>
+        <legend>Gender *</legend>
+    <p>
+        Male<input type="radio" name="gender"  id="male" required><br>
+        Female<input type="radio" name="gender"  id="Female" required><br>
+        others<input type="radio" name="gender"  id="others" required><br>
+    </p>
+</fieldset>
+<p>DOB*<input type="date" name="DOB" id="DOB" placeholer="dd-mm-yy"required></p>
+<p>Email*<input type="email" id="email" name="email" placeholder="abcd@gmail.com">
+<p>Country:<input list="countries" placeholder="Select your Country">
+    <datalist id="countries">
+        <option value="India">
+        <option value="USA">
+        <option value="Australia">
+        <option value="UK">
+           
+            
+            
+    </datalist>
+</p>
+<p>
+    Address:<textarea name="addres" id="addres" cols="60" rows="8" placeholder="Enter your address"required></textarea>
+</p>
+
+    <p>Pincode <input type="text" id="Pincode" name="Pincode " placeholder="Enter pincode"> </p>
+    <button>>Submit</button>
+
+</form>
+</div>
+</body>
+
+</html>
